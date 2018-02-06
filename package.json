@@ -1,6 +1,6 @@
 {
   "name": "aimake-plugin-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "description": "AiMake plugin plugin.",
   "license": "MIT",
@@ -22,7 +22,13 @@
     "eslint": "^4.16.0",
     "eslint-config-aimake": "^0.0.1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "ejs": "^2.5.7",
+    "glob": "^7.1.2",
+    "inquirer": "^5.1.0",
+    "mkdirp": "^0.5.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint": "eslint src --fix",
